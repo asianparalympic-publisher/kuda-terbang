@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Hari Ini - Portal Berita Terkini</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .featured-article {
+            margin-bottom: 3rem;
+        }
+
+        .featured-article img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .article-content {
+            margin-top: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .news-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .category-tag {
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 3px;
+            display: inline-block;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>BERITA HARI INI</h1>
+        <p>Portal Berita Terpercaya dan Terkini</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#politik">Politik</a></li>
+            <li><a href="#ekonomi">Ekonomi</a></li>
+            <li><a href="#teknologi">Teknologi</a></li>
+            <li><a href="#olahraga">Olahraga</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <article class="featured-article">
+            <h2>Mobil Listrik Terbang Pertama Siap Mengudara di Indonesia 2025</h2>
+            <span class="category-tag">Teknologi</span>
+            <img src="https://picsum.photos/1200/400?random=5" alt="Mobil Listrik Terbang">
+
+            <div class="article-content">
+                <p><strong>Jakarta</strong> - Tahun 2025 menjadi tonggak sejarah baru bagi dunia transportasi di Indonesia. Perusahaan rintisan teknologi lokal, AeroIndo, secara resmi meluncurkan mobil listrik terbang pertama yang akan diuji coba di langit ibu kota pada bulan Mei ini.</p>
+
+                <p>Mobil bernama "GarudaFly X1" ini mengandalkan teknologi drone raksasa dengan kapasitas penumpang 2 orang dan daya jelajah 120 km dalam sekali isi daya. Selain efisien, kendaraan ini dirancang tanpa emisi karbon, menjadikannya solusi ramah lingkungan untuk masa depan transportasi urban.</p>
+
+                <h3>Spesifikasi Utama</h3>
+                <ul>
+                    <li>Kecepatan Maksimal: 130 km/jam</li>
+                    <li>Daya Jelajah: 120 km</li>
+                    <li>Sistem Navigasi: AI Autopilot dan GPS</li>
+                    <li>Waktu Pengisian Daya: 45 menit</li>
+                </ul>
+
+                <p>CEO AeroIndo, Arief Nugroho, mengatakan bahwa GarudaFly X1 dikembangkan bersama mitra dari Korea Selatan dan telah lolos uji keamanan internasional. "Kami percaya, mobilitas udara adalah masa depan, dan Indonesia harus berada di baris depan dalam inovasi ini," ujarnya.</p>
+
+                <p>Proyek ini mendapat dukungan dari Kementerian Perhubungan dan diharapkan bisa mulai dikomersialkan di kota besar lainnya pada awal tahun 2026. Tiket uji coba perdana untuk publik sudah habis dipesan dalam waktu 3 jam setelah pengumuman resmi.</p>
+            </div>
+            <p class="author">Ditulis oleh: Admin Berita - 3 Mei 2025</p>
+        </article>
+
+        <section class="news-grid">
+            <div class="news-card">
+                <img src="https://picsum.photos/300/200?random=1" alt="Berita Politik">
+                <span class="category-tag">Politik</span>
+                <h3>Pemilu 2025 Digelar Serentak di 38 Provinsi</h3>
+                <p>KPU umumkan kesiapan teknis dan distribusi logistik yang diklaim lebih efisien dari tahun-tahun sebelumnya...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/301/200?random=2" alt="Berita Olahraga">
+                <span class="category-tag">Olahraga</span>
+                <h3>Indonesia Buka Peluang Emas di Olimpiade Paris 2025</h3>
+                <p>Atlet angkat besi dan bulu tangkis unggulan siap berlaga membawa pulang medali emas bagi Merah Putih...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/302/200?random=3" alt="Berita Ekonomi">
+                <span class="category-tag">Ekonomi</span>
+                <h3>IHSG Tembus 8.000, Pasar Saham Menguat Jelang Semester II</h3>
+                <p>Optimisme investor meningkat didorong stabilitas politik dan pertumbuhan ekonomi digital di kuartal awal...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Berita Hari Ini - All Rights Reserved</p>
+        <p>Redaksi: redaksi@beritahariini.com</p>
+    </footer>
+</body>
+</html>
